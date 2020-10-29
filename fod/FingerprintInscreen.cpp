@@ -48,7 +48,7 @@ namespace lineage {
 namespace biometrics {
 namespace fingerprint {
 namespace inscreen {
-namespace V1_0 {
+namespace V1_1 {
 namespace implementation {
 
 FingerprintInscreen::FingerprintInscreen() {
@@ -126,7 +126,7 @@ Return<void> FingerprintInscreen::setCallback(const sp<::vendor::lineage::biomet
 }
 
 }  // namespace implementation
-}  // namespace V1_0
+}  // namespace V1_1
 }  // namespace inscreen
 }  // namespace fingerprint
 }  // namespace biometrics
